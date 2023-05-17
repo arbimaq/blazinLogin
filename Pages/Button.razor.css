@@ -1,0 +1,9 @@
+.button {
+  border-radius: 15px;
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 2px 35px 2px 35px;
+  background-color: purple;
+  color: white;
+  margin-top: 5px;
+}

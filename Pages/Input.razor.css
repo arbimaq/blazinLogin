@@ -1,0 +1,27 @@
+.input {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  padding: 2px 2px 2px 5px;
+}
+input[type="text"]:focus {
+  border-radius: 5px;
+  width: 300px;
+  padding: 2px 2px 2px 5px;
+  border: 2px solid purple;
+}
+input[type="email"]:focus {
+  border-radius: 5px;
+  width: 300px;
+  padding: 2px 2px 2px 5px;
+  border: 2px solid purple;
+}
+input[type="password"]:focus {
+  border-radius: 5px;
+  width: 300px;
+  padding: 2px 2px 2px 5px;
+  border: 2px solid purple;
+}
+.form-group {
+  margin-bottom: 10px;
+}

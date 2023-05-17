@@ -1,0 +1,19 @@
+<div class="form-group">
+    <div>
+    <label>@Label</label>
+</div>
+<div >
+    <input class="input" type=@Type placeholder=@PlaceHolder />
+</div>
+</div>
+
+@code
+{
+    [Parameter]
+    public string Label {get; set;} ="";
+    [Parameter]
+    public string Type {get;set;} = "";
+    [Parameter]
+    public string PlaceHolder { get; set; } ="";
+
+}

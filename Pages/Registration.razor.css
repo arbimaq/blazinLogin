@@ -24,12 +24,13 @@ button {
   border-radius: 15px;
   background-color: transparent;
   border: 1px solid gray;
-  padding: 1px 15px 1px 15px;
-  font-weight: bold;
+  padding: 1px 20px 1px 20px;
 }
 .signin-msg {
   display: flex;
   justify-content: end;
   align-items: center;
   gap: 12px;
+  margin-top: 10px;
+  font-size: 12px;
 }

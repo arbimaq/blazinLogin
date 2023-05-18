@@ -1,0 +1,36 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* border: 1px solid black; */
+}
+.main-content {
+  display: flex;
+  background-color: white;
+  height: 100vh;
+}
+.main-body {
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.page-left {
+  background-image: url("/images/LoginBackground.jpg");
+  flex: 1;
+  opacity: 0.8;
+}
+.page-right {
+  flex: 1;
+  padding: 0px 60px 0px 60px;
+}
+button {
+  border-radius: 15px;
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 1px 20px 1px 20px;
+}
+.signin-msg {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  font-size: 12px;
+}
